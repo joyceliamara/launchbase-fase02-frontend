@@ -1,0 +1,94 @@
+    :root {
+        --color-purple: rgb(205, 124, 212);
+    }
+
+     * {
+            margin:0;
+            padding:0;
+            border:0;
+        }
+
+    body{
+        background: #282a36;
+        font-family: 'Source Sans Pro', sans-serif;
+        color:white;
+        margin-bottom: 10px;
+    }
+
+  
+
+    header{
+        padding:32px;
+        border-bottom: 1px solid #333;
+        background: rgba(0,0,0,0.1);
+    }
+
+    header div{
+        text-align: center;
+       
+    }
+
+    header div a{
+        color: white;
+        font-size:18px;
+        line-height: 28px;
+        font-family: 'Roboto', sans-serif;
+        margin:0 30px;
+    }
+
+    .links{
+        text-align: center;
+    
+    }
+    
+    .links a{
+        color:white;
+        font-size: 18px;
+        line-height:28px;
+        margin:0 16px;
+        text-decoration: none;
+    }
+    
+    .links a:hover{
+        color:var(--color-purple);
+        transition: color 200ms;
+    }
+
+    #wrapper{
+        text-align: center;
+        padding:32px;
+    }
+
+
+    #wrapper img{
+        border-radius: 50%;
+        border:5px solid var(--color-purple);
+        margin-bottom:32px;
+        height:230px;
+    }
+
+    #wrapper h1{
+        font-size:42px;
+        line-height: 52px;
+        font-weight: bold;
+    }
+
+    #wrapper h2{
+        font-size:24px;
+        line-height: 30px;
+        font-weight: normal;
+        margin-top:5px;
+        opacity:0.8;
+    }
+    
+    #wrapper p{
+        max-width:400px;
+        margin:18px auto;
+        font-size:18px;
+        line-height:25px;;
+     
+    }
+    
+    #links-footer a{
+        border-bottom: 1px solid var(--color-purple);
+    }
