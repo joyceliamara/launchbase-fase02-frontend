@@ -1,4 +1,5 @@
 const modalOverlay = document.querySelector('.modal-overlay');
+const modal = document.querySelector('.modal');
 const cards = document.querySelectorAll('.card');
 
 for (let card of cards){
@@ -9,9 +10,14 @@ for (let card of cards){
     })
 }
 
-document.querySelector(".close-modal").addEventListener("click", function(){
-    modalOverlay.classList.remove("active");
-    modalOverlay.querySelector("iframe").src = ""
+document.querySelector(".close-modal").addEventListener("click", function(pagina){
+
+    modalOverlay.classList.contains('maximize');
+
+
+
+    // modalOverlay.classList.remove("active");
+    // modalOverlay.querySelector("iframe").src = ""
 })
 
 
